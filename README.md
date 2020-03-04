@@ -17,8 +17,8 @@ This part describes front-end plugins, Vue components' hierarchy, helpers and et
 
 ## Back-end details
 
-This part describes back-end plugins, REST Api, database models, system modules and etc.
+This part describes back-end plugins, REST Api, system modules and etc.
 
 ## Database details
 
-This part describes
+This part describes database models and their relations
