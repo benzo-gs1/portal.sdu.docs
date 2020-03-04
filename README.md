@@ -13,7 +13,7 @@ This part describes the top-level system design, which includes: tech details, p
 
 ## Front-end details
 
-This part describes front-end plugins, Vue components' hierarchy, apis, helpers and etc.
+This part describes front-end plugins, Vue components' hierarchy, helpers and etc.
 
 ## Back-end details
 
