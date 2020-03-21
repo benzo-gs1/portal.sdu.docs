@@ -3,10 +3,10 @@
 Table of contents:
 
 - [Events 📅](#events-%f0%9f%93%85)
-  - [server namespace](#server-namespace)
+  - [server](#server)
     - [server::close event](#serverclose-event)
 
-## server namespace
+## server
 
 All events related to server activity
 
