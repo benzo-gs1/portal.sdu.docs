@@ -1,4 +1,4 @@
-# Welcome to portal.sdu's documentation!
+# Welcome to portal.sdu's documentation! 😃
 
 There are currently 6 sections:
 

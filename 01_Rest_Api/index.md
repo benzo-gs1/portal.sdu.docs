@@ -1,4 +1,4 @@
-# REST Api reference
+# REST Api reference #️⃣
 
 This document describes a REST Api abstraction of this system.
 
