@@ -1,22 +1,10 @@
 # Back-end reference
 
-Table of contents:
+This document describes Back-end plugins, services, loaders, configurations and etc...
 
-## Modules
-
-## Plugins
-
-- Dependencies
-  - express - Express server, for quick REST Api
-- Dev dependencies
-  - @babel/cli, @babel/core, @babel/node, @babel/preset-env, babel-plugin-root-import - ES6 syntax, root-relative import
-  - nodemon - hot reload for Node.js
-  - dotenv - .env config file
-
-## REST Api
-
-- api/
-  - token/
-    - [validate/](rest-api/token/validate.md)
-  - users/
-    - [validate-credentials/](rest-api/users/validate-credentials.md)
+- [Plugins](./01_Plugins/index.md)
+- [Configs](./02_Configs/index.md)
+- [Loaders](./03_Loaders/index.md)
+- [Event Pipe](./04_Pipe/index.md)
+- [Routes](../01_Rest_Api/index.md) - This part is described in REST Api reference
+- [Services](./05_Services/index.md)
