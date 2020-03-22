@@ -1,6 +1,6 @@
-# api/token/validate (POST)
+# api/token/validate (GET)
 
-Validating token
+Validates token from Authorization: Bearer &lt;token> pattern
 
 | Parameter | Description       |
 | :-------: | ----------------- |
@@ -8,10 +8,12 @@ Validating token
 
 ### Request example
 
-```json
-{
-  "token": "1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd"
-}
+```http
+<!-- other headers -->
+
+Authorization: Bearer 1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd
+
+<!-- other headers -->
 ```
 
 | Response Status code | Description         |
@@ -25,7 +27,7 @@ HTTP Code: 200
 
 ```json
 {
-  "status": true
+  // payload
 }
 ```
 
@@ -33,8 +35,6 @@ HTTP Code: 200
 
 HTTP code: 406
 
-```json
-{
-  "status": false
-}
+```http
+Unauthorized
 ```
