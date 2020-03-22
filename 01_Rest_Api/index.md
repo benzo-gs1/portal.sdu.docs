@@ -6,3 +6,4 @@ This document describes a REST Api abstraction of this system.
 
 - [Users api](./01_Users/index.md)
 - [Token api](./02_Token/index.md)
+- [Server api](./03_Server/index.md)
