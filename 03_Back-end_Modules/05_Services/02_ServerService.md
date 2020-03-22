@@ -2,11 +2,8 @@
 
 ```js
 class ServerService {
-  static closeServer();
-
-  static setApp(app);
+  static closeServer(server);
 }
 ```
 
-- **closeServer** - kills the server
-- **setApp** - sets the Express.Application reference
+- **closeServer** - kills the given server
