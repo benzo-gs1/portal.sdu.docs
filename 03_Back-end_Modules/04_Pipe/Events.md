@@ -5,6 +5,8 @@ Table of contents:
 - [Events 📅](#events-%f0%9f%93%85)
   - [server](#server)
     - [server::close event](#serverclose-event)
+  - [system](#system)
+    - [system::setup event](#systemsetup-event)
 
 ## server
 
@@ -14,6 +16,8 @@ All events related to server activity
 
 This event means that server is about to close
 
-**Emitters:** api/server/kill route
+## system
 
-**Listeners:** ServerService
+### system::setup event
+
+Notifies the whole system that setup is happening. Fired at the very beginning
