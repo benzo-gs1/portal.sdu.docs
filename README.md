@@ -1,4 +1,4 @@
-# Welcome to portal.sdu's documentation! 😃
+# Welcome to portal.sdu's documentation 📓
 
 There are currently 6 sections:
 
@@ -9,4 +9,10 @@ There are currently 6 sections:
 - [Database](./05_Database/index.md) - Describes Database structure
 - [Changelog](./06_Changelog/index.md)
 
+## Tools 🚀
 
+This documentation is build using [Daux](https://daux.io)
+
+## License 📢
+
+This software is licensed under the Apache 2.0 license. Please get familiar with the statements and conditions first, before you continue working with this repository. For more details, please follow [LICENCE](./LICENSE);
