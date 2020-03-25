@@ -8,6 +8,7 @@ This document describes configurations of the system.
 - ENV_MODE - mode for system (dev, prod)
 - TOKEN_ALGORITHM - algorithm for token creation
 - USER_TOKEN_SECRET - secret key for jwt
+- MONGODB_URI - mongodb uri
 
 ## JSON interpretation
 
@@ -18,6 +19,9 @@ This document describes configurations of the system.
   "secret": {
     "user": String,
     "algorithm": String
+  },
+  "mongodb": {
+    "uri": String
   }
 }
 ```
