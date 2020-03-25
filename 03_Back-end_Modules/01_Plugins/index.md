@@ -11,6 +11,7 @@ This document describes Back-end's dependencies.
     - [express 4.17.1](#express-4171)
     - [helmet 3.21.3](#helmet-3213)
     - [jsonwebtoken 8.5.1](#jsonwebtoken-851)
+    - [mongoose 5.9.5](#mongoose-595)
   - [Dev Dependencies](#dev-dependencies)
     - [@babel/cli, @babel/core, @babel/node, @babel/preset-env 7.8.4](#babelcli-babelcore-babelnode-babelpreset-env-784)
     - [babel-plugin-root-import 6.4.1](#babel-plugin-root-import-641)
@@ -62,6 +63,12 @@ Package/Middleware in defense of most popular web attacks
 **npm [link](https://www.npmjs.com/package/jsonwebtoken)**
 
 JWT itself
+
+### mongoose 5.9.5
+
+**npm [link](https://www.npmjs.com/package/mongoose)**
+
+Mongoose is a Schema-based MongoDB modeling framework. It helps us validate model's properties and more.
 
 ## Dev Dependencies
 
