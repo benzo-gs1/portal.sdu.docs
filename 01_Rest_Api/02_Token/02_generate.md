@@ -1,40 +1,21 @@
-# api/token/validate (GET)
+# api/token/generate (POST)
 
-Validates token from Authorization: Bearer &lt;token> pattern
-
-| Parameter | Description       |
-| :-------: | ----------------- |
-|   token   | Token to validate |
+(Only in development) Generates token from given payload
 
 ### Request example
 
-```http
-<!-- other headers -->
-
-Authorization: Bearer 1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd
-
-<!-- other headers -->
+```json
+{
+  // any data
+}
 ```
 
-| Response Status code | Description         |
-| :------------------: | ------------------- |
-|         200          | True, token passed  |
-|         406          | False, token failed |
-
-### Response example (Success)
+### Response example
 
 HTTP Code: 200
 
 ```json
 {
-  // payload
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJheURhcmFyIiwiaWF0IjoxNTg0ODc0OTU1LCJleHAiOjE1ODQ4Nzg1NTV9.opOkiaErjUmjhXkMUMI_7SC-rKUGRpWQxdiLEblPhig"
 }
-```
-
-### Response example (Fail)
-
-HTTP code: 406
-
-```http
-Unauthorized
 ```
