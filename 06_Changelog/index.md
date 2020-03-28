@@ -5,6 +5,7 @@ This document describes project changes.
 Table of contents:
 
 - [Changelog 🗒️](#changelog-%f0%9f%97%92%ef%b8%8f)
+  - [v2](#v2)
   - [v1](#v1)
     - [1.6.0](#160)
     - [1.5.0](#150)
@@ -13,6 +14,14 @@ Table of contents:
     - [1.3.0](#130)
     - [1.2.0](#120)
     - [1.1.0](#110)
+
+## v2
+
+- [ ] Morgan as logger for events and routes
+- [ ] Theme switcher at the Front-end
+- [ ] Database scheme for profiles and roles
+- [ ] Define No-semester state for Students
+- [ ] Homepage mobile creation
 
 ## v1
 

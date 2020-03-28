@@ -8,5 +8,3 @@ There are currently 6 sections:
 - [Processes](./04_Processes/index.md) - Describes systems processes by Flowchart (UX map)
 - [Database](./05_Database/index.md) - Describes Database structure
 - [Changelog](./06_Changelog/index.md)
-
-
