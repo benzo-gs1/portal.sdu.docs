@@ -37,12 +37,18 @@
   year: 2020,
   code: 10113,
   cipher: "6B061001",
-  title: "Information Systems",
+  title: {
+    en: "Information Systems"
+  },
   language: "en",
   department: {
-    _id: ObjectId('some-id'),
-    name: "Department Of Computer Science"
+    _id: ObjectId('some-id')
   },
-  level: "B"
+  level: {
+    short: "B",
+    full: {
+      en: "Bachelor"
+    }
+  }
 }
 ```

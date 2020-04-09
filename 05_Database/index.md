@@ -11,5 +11,6 @@ Currently schema looks like these:
 - [User](./Documents/Users.md)
 - [Curriculum](./Documents/Curriculums.md)
 - [Course](./Documents/Courses.md)
+- [Department](./Documents/Department.md)
 
 **Defined Roles:** [Link](./01_Roles.md)

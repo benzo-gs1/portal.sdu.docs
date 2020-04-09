@@ -1,4 +1,4 @@
-# Course 📅
+# Course 🗒️
 
 ```js
 {
@@ -12,14 +12,14 @@
     ru: "Введение в алгоритмы"
   },
   department: {
-    _id: ObjectId('some-id'),
-    name: "Department Of Computer Science"
+    _id: ObjectId('some-id')
   },
   hours: {
     theory: 2,
     practice: 0,
     labs: 2
   },
-  credits: 3
+  credits: 3,
+  ects: 5
 }
 ```

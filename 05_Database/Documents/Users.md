@@ -13,12 +13,10 @@
   ],
   language: "en",
   department: {
-    _id: ObjectId('some-id'),
-    name: "Computer Science"
+    _id: ObjectId('some-id')
   },
   faculty: {
-    _id: ObjectId('some-id'),
-    name: "Engineering and Natural Sciences"
+    _id: ObjectId('some-id')
   },
   curriculum: {
     _id: ObjectId('some-id')
