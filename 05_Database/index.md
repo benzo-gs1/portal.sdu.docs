@@ -8,6 +8,8 @@ Currently schema looks like these:
 
 **Defined models example:**
 
-- [Users Model](./Documents/Users.md)
+- [User](./Documents/Users.md)
+- [Curriculum](./Documents/Curriculums.md)
+- [Course](./Documents/Courses.md)
 
 **Defined Roles:** [Link](./01_Roles.md)
