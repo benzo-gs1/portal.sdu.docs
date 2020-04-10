@@ -12,16 +12,14 @@ This document describes configurations of the system.
 
 ## JSON interpretation
 
-```json
+Values are loaded from .env file and are available using `import config from "@/config";`
+
+```js
 {
-  "port": Integer,
-  "isProduction": Boolean,
-  "secret": {
-    "user": String,
-    "algorithm": String
-  },
-  "mongodb": {
-    "uri": String
-  }
+  port: Number,
+  isProduction: Boolean,
+  secretAlgorithm: String,
+  secretKey: String,
+  mongodbUri: String
 }
 ```
