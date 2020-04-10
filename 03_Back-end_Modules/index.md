@@ -8,6 +8,7 @@ This document describes Back-end plugins, services, loaders, configurations and 
 - [Event Pipe](./04_Pipe/index.md)
 - [Routes](../01_Rest_Api/index.md) - This part is described in REST Api reference
 - [Services](./05_Services/index.md)
+- [Tests](./06_Tests/index.md)
 
 ## npm scripts
 
