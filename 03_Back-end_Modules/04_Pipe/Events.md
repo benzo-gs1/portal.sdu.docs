@@ -5,8 +5,9 @@ Table of contents:
 - [Events 📅](#events-%f0%9f%93%85)
   - [server](#server)
     - [server::close event](#serverclose-event)
-  - [system](#system)
-    - [system::setup event](#systemsetup-event)
+    - [server::setup event](#serversetup-event)
+  - [mongo](#mongo)
+    - [mongo::connected event](#mongoconnected-event)
 
 ## server
 
@@ -16,8 +17,14 @@ All events related to server activity
 
 This event means that server is about to close
 
-## system
+### server::setup event
 
-### system::setup event
+Notifies the server setup is happening
 
-Notifies the whole system that setup is happening. Fired at the very beginning
+## mongo
+
+All event's related to database activity
+
+### mongo::connected event
+
+Notifies that the database is connected
