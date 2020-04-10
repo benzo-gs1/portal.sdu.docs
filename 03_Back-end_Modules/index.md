@@ -8,3 +8,10 @@ This document describes Back-end plugins, services, loaders, configurations and 
 - [Event Pipe](./04_Pipe/index.md)
 - [Routes](../01_Rest_Api/index.md) - This part is described in REST Api reference
 - [Services](./05_Services/index.md)
+
+## npm scripts
+
+- `npm run dev` or `yarn dev` - starting nodemon for development
+- `npm run build` or `yarn build` - starting tests and building project for production
+- `npm run start` or `yarn start` - starting server from build
+- `npm test` or `yarn test` - starting tests
