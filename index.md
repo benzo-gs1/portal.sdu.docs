@@ -8,3 +8,15 @@ There are currently 6 sections:
 - [Processes](./04_Processes/index.md) - Describes systems processes by Flowchart (UX map)
 - [Database](./05_Database/index.md) - Describes Database structure
 - [Changelog](./06_Changelog/index.md)
+
+## Contribution rules
+
+- We use prettier as our code formatter
+- Document all your work here
+- Work from forking repos
+
+Obtaining repo updates to your fork:
+
+- `git fetch upstream`
+- `git checkout master`
+- `git merge upstream/master`
