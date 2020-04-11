@@ -56,7 +56,7 @@ Second version of prototype defines Non-semester state for Students and Teachers
 
 ## v1.0.0
 
-First version contains basis of all the system. With database system, event-pipe system, collectors and services all these could be easily maintained and scaled.
+The first version contains the basis of all the systems. With database system, event-pipe system, collectors and services all these could be easily maintained and scaled.
 
 ### v1.6.0
 
