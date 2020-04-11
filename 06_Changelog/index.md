@@ -6,6 +6,11 @@ Table of contents:
 
 - [Changelog 🗒️](#changelog-%f0%9f%97%92%ef%b8%8f)
   - [v2](#v2)
+    - [2.1.0](#210)
+      - [2.1.3](#213)
+      - [2.1.2](#212)
+      - [2.1.1](#211)
+    - [2.0.1](#201)
   - [v1](#v1)
     - [1.6.0](#160)
     - [1.5.0](#150)
@@ -17,11 +22,37 @@ Table of contents:
 
 ## v2
 
-- [ ] Morgan as logger for events and routes
-- [ ] Theme switcher at the Front-end
-- [ ] Database scheme for profiles and roles
-- [ ] Define No-semester state for Students
-- [ ] Homepage mobile creation
+Second version of prototype defines Non-semester state for Students and Teachers
+
+### 2.1.0
+
+- Logger system creation
+- Tests written
+
+#### 2.1.3
+
+- Dependencies update
+  - helmet: 3.21.3 -> 3.22.0
+  - mocha: 7.1.0 -> 7.1.1
+  - babel-plugin-root-import: 6.4.1 -> 6.5.0
+  - @babel/core: 7.8.4 -> 7.9.0
+  - @babel/preset-env: 7.8.4 -> 7.9.5
+
+#### 2.1.2
+
+- Minor logger updates
+- Services bug fix
+
+#### 2.1.1
+
+- Configs are changed
+- Pipe listening to events
+- Event cleaning
+
+### 2.0.1
+
+- system::setup event changed to server::setup
+- Testing process added to scripts
 
 ## v1
 
