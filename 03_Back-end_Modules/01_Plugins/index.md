@@ -9,15 +9,15 @@ This document describes Back-end's dependencies.
     - [cors 2.8.5](#cors-285)
     - [eventemmiter2 6.2.1](#eventemmiter2-621)
     - [express 4.17.1](#express-4171)
-    - [helmet 3.21.3](#helmet-3213)
+    - [helmet 3.22.0](#helmet-3220)
     - [jsonwebtoken 8.5.1](#jsonwebtoken-851)
     - [mongoose 5.9.5](#mongoose-595)
   - [Dev Dependencies](#dev-dependencies)
-    - [@babel/cli, @babel/core, @babel/node, @babel/preset-env 7.8.4](#babelcli-babelcore-babelnode-babelpreset-env-784)
-    - [babel-plugin-root-import 6.4.1](#babel-plugin-root-import-641)
+    - [@babel/cli 7.8.4, @babel/core 7.9.0, @babel/node 7.8.4, @babel/preset-env 7.9.5](#babelcli-784-babelcore-790-babelnode-784-babelpreset-env-795)
+    - [babel-plugin-root-import 6.5.0](#babel-plugin-root-import-650)
     - [chai 4.2.0](#chai-420)
     - [dotenv 8.2.0](#dotenv-820)
-    - [mocha 7.1.0](#mocha-710)
+    - [mocha 7.1.1](#mocha-711)
     - [nodemon 2.0.2](#nodemon-202)
 
 ## Dependencies
@@ -52,7 +52,7 @@ EventEmmiter2 object is essential tool to build a Event-Driven system in our app
 
 Tool for building REST Api based application
 
-### helmet 3.21.3
+### helmet 3.22.0
 
 **npm [link](https://www.npmjs.com/package/helmet)**
 
@@ -72,7 +72,7 @@ Mongoose is a Schema-based MongoDB modeling framework. It helps us validate mode
 
 ## Dev Dependencies
 
-### @babel/cli, @babel/core, @babel/node, @babel/preset-env 7.8.4
+### @babel/cli 7.8.4, @babel/core 7.9.0, @babel/node 7.8.4, @babel/preset-env 7.9.5
 
 **npm [cli](https://www.npmjs.com/package/@babel/cli)** <br>
 **npm [core](https://www.npmjs.com/package/@babel/core)** <br>
@@ -81,7 +81,7 @@ Mongoose is a Schema-based MongoDB modeling framework. It helps us validate mode
 
 Babel for enabling modern ES features.
 
-### babel-plugin-root-import 6.4.1
+### babel-plugin-root-import 6.5.0
 
 **npm [link](https://www.npmjs.com/package/babel-plugin-root-import)**
 
@@ -99,7 +99,7 @@ Assertion library for testing purposes
 
 Make configurations from .env file
 
-### mocha 7.1.0
+### mocha 7.1.1
 
 **npm [link](https://www.npmjs.com/package/mocha)**
 
