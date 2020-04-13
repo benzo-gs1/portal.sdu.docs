@@ -18,7 +18,7 @@ This document describes Back-end's dependencies.
     - [chai 4.2.0](#chai-420)
     - [dotenv 8.2.0](#dotenv-820)
     - [mocha 7.1.1](#mocha-711)
-    - [nodemon 2.0.2](#nodemon-202)
+    - [nodemon 2.0.3](#nodemon-203)
 
 ## Dependencies
 
@@ -105,7 +105,7 @@ Make configurations from .env file
 
 Testing library
 
-### nodemon 2.0.2
+### nodemon 2.0.3
 
 **npm [link](https://www.npmjs.com/package/nodemon)**
 
