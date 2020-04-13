@@ -20,6 +20,8 @@ Values are loaded from .env file and are available using `import config from "@/
   isProduction: Boolean,
   secretAlgorithm: String,
   secretKey: String,
-  mongodbUri: String
+  mongodbUri: String,
+  server: Object,
+  connection: Object
 }
 ```
