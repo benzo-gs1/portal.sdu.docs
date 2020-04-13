@@ -18,9 +18,10 @@ If you want to fire an event not registered at docs, do not forget to document y
 If you want to listen to one of the defined events, then follow:
 
 ```js
-import pipe from "@/pipe";
+import pipe from "@/pipe"; // pipe object
+import events from "@/pipe/names"; // event constants
 
-pipe.on("some-event", () => {
+pipe.on(events.some.event, () => {
   /* handler code */
 });
 ```
