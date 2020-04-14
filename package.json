@@ -1,4 +1,19 @@
 {
+  "name": "portal.sdu.docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SDU's documentation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benzo-gs1/portal.sdu.docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benzo-gs1/portal.sdu.docs/issues"
+  },
+  "homepage": "https://github.com/benzo-gs1/portal.sdu.docs#readme",
   "devDependencies": {
     "husky": "^4.2.5",
     "prettier": "^2.0.4",
