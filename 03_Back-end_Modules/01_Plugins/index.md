@@ -11,7 +11,7 @@ This document describes Back-end's dependencies.
     - [express 4.17.1](#express-4171)
     - [helmet 3.22.0](#helmet-3220)
     - [jsonwebtoken 8.5.1](#jsonwebtoken-851)
-    - [mongoose 5.9.5](#mongoose-595)
+    - [mongoose 5.9.9](#mongoose-599)
   - [Dev Dependencies](#dev-dependencies)
     - [@babel/cli 7.8.4, @babel/core 7.9.0, @babel/node 7.8.4, @babel/preset-env 7.9.5](#babelcli-784-babelcore-790-babelnode-784-babelpreset-env-795)
     - [babel-plugin-root-import 6.5.0](#babel-plugin-root-import-650)
@@ -19,6 +19,9 @@ This document describes Back-end's dependencies.
     - [dotenv 8.2.0](#dotenv-820)
     - [mocha 7.1.1](#mocha-711)
     - [nodemon 2.0.3](#nodemon-203)
+    - [prettier 2.0.4](#prettier-204)
+    - [pretty-quick 2.0.1](#pretty-quick-201)
+    - [husky 4.2.5](#husky-425)
 
 ## Dependencies
 
@@ -64,7 +67,7 @@ Package/Middleware in defense of most popular web attacks
 
 JWT itself
 
-### mongoose 5.9.5
+### mongoose 5.9.9
 
 **npm [link](https://www.npmjs.com/package/mongoose)**
 
@@ -110,3 +113,21 @@ Testing library
 **npm [link](https://www.npmjs.com/package/nodemon)**
 
 Listening to project files and hot-reloading the server
+
+### prettier 2.0.4
+
+**npm [link](https://www.npmjs.com/package/prettier)**
+
+Formatting files by the defined rules
+
+### pretty-quick 2.0.1
+
+**npm [link](https://www.npmjs.com/package/pretty-quick)**
+
+Formatting git staged files using prettier
+
+### husky 4.2.5
+
+**npm [link](https://www.npmjs.com/package/husky)**
+
+Creating git hooks
