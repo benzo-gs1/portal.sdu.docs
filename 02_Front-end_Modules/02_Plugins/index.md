@@ -7,7 +7,7 @@ Table of Contents:
 - [Plugins 🔌](#plugins-%f0%9f%94%8c)
   - [Dependencies](#dependencies)
     - [vue-cookies 1.7.0 🍪](#vue-cookies-170-%f0%9f%8d%aa)
-    - [vue-i18n 8.16.0 🗺️](#vue-i18n-8160-%f0%9f%97%ba%ef%b8%8f)
+    - [vue-i18n 8.17.0 🗺️](#vue-i18n-8170-%f0%9f%97%ba%ef%b8%8f)
   - [Dev Dependencies](#dev-dependencies)
     - [prettier 2.0.4](#prettier-204)
     - [pretty-quick 2.0.1](#pretty-quick-201)
@@ -21,7 +21,7 @@ Table of Contents:
 
 This plugin helps us to easily parse and work with Browser's cookies.
 
-### vue-i18n 8.16.0 🗺️
+### vue-i18n 8.17.0 🗺️
 
 **npm [link](https://www.npmjs.com/package/vue-i18n)**
 
