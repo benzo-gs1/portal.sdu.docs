@@ -1,31 +1,33 @@
 # api/users/create (POST)
 
-In development, creates user from given credentials and returns it
+## Description
 
-| Parameter | Description                               |
-| :-------: | ----------------------------------------- |
-| username  | User's login (unique id or username)      |
-| password  | User's password                           |
-| language  | User's chosen language (default: English) |
-|   role    | User's role                               |
+Creates user from given credentials and returns it
 
-### Request example
+|    Note    | Value |
+| :--------: | :---: |
+| Need Token |  No   |
+| Test route |  Yes  |
+
+## Request example
+
+Send parameters related to Users' Schema. See [User Model](../../05_Database/Documents/Users.md)
 
 ```json
 {
   "username": "180101033",
   "password": "thisisapassword",
-  "language": "en",
-  "role": "student"
+  "language": "en"
+  // other parameters
 }
 ```
+
+## Response example (Success)
 
 | Response Status code | Description |
 | :------------------: | ----------- |
 |         200          | Success     |
 |         406          | Error       |
-
-### Response example (Success)
 
 HTTP Code: 200
 
@@ -34,19 +36,6 @@ HTTP Code: 200
   "status": true,
   "user": {
     // created user
-  }
-}
-```
-
-### Response example (Fail)
-
-HTTP code: 406
-
-```json
-{
-  "status": false,
-  "error": {
-    // mongoose error
   }
 }
 ```

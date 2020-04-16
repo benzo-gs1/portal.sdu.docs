@@ -1,16 +1,23 @@
 # api/token/generate (POST)
 
-(Only in development) Generates token from given payload
+## Description
 
-### Request example
+Generates token from given payload
+
+|    Note    | Value |
+| :--------: | :---: |
+| Need Token |  No   |
+| Test route |  Yes  |
+
+## Request example
 
 ```json
 {
-  // any data
+  // any payload
 }
 ```
 
-### Response example
+## Response example
 
 HTTP Code: 200
 
