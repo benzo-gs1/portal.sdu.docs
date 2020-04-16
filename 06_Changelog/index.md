@@ -6,6 +6,7 @@ Table of contents:
 
 - [Changelog 🗒️](#changelog-%f0%9f%97%92%ef%b8%8f)
   - [v2.0.0](#v200)
+    - [v2.2.0](#v220)
     - [v2.1.0](#v210)
       - [v2.1.3](#v213)
       - [v2.1.2](#v212)
@@ -23,6 +24,12 @@ Table of contents:
 ## v2.0.0
 
 Second version of prototype defines Non-semester state for Students and Teachers
+
+### v2.2.0
+
+- Scheme update
+- Theme Switcher implemented
+- Event system update
 
 ### v2.1.0
 
