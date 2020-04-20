@@ -6,14 +6,12 @@
   code: "CSS 215",
   year: 2020,
   language: "en",
-  name: {
+  title: {
     en: "Introduction to Algorithms",
     kz: "Алгоритмдерге кіріспе",
     ru: "Введение в алгоритмы"
   },
-  department: {
-    _id: ObjectId('some-id')
-  },
+  department:ObjectId('some-id'),
   hours: {
     theory: 2,
     practice: 0,
