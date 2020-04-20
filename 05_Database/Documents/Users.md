@@ -12,14 +12,8 @@
     }
   ],
   language: "en",
-  department: {
-    _id: ObjectId('some-id')
-  },
-  faculty: {
-    _id: ObjectId('some-id')
-  },
-  curriculum: {
-    _id: ObjectId('some-id')
-  }
+  department: ObjectId('some-id'),
+  faculty: ObjectId('some-id'),
+  curriculum: ObjectId('some-id')
 }
 ```
