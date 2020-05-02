@@ -8,6 +8,7 @@ Validates token from Authorization: Bearer &lt;token> pattern
 | :--------: | :-----: |
 | Need Token | **Yes** |
 | Test route |   No    |
+| Is Public  |   No    |
 
 ## Request example
 

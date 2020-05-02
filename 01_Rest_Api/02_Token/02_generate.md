@@ -8,6 +8,7 @@ Generates token from given payload
 | :--------: | :-----: |
 | Need Token |   No    |
 | Test route | **Yes** |
+| Is Public  | **Yes** |
 
 ## Request example
 

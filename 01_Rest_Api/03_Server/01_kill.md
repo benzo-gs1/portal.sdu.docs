@@ -10,3 +10,4 @@ Emits the [server::stop](../../03_Back-end_Modules/04_Pipe/Events.md#serverclose
 | :--------: | :-----: |
 | Need Token |   No    |
 | Test route | **Yes** |
+| Is Public  | **Yes** |
