@@ -10,6 +10,7 @@ This document describes Back-end plugins, services, loaders, configurations and 
 - [Services](./05_Services/index.md)
 - [Tests](./06_Tests/index.md)
 - [Utils](./07_Utils/index.md)
+- [Middleware](./08_Middleware/index.md)
 
 ## npm scripts
 
