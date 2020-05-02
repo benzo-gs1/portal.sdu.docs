@@ -26,10 +26,11 @@ Authorization: Bearer 1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd
 
 ## Response
 
-| Response Status code | Description         |
-| :------------------: | ------------------- |
-|         200          | True, token passed  |
-|         406          | False, token failed |
+| Response Status code | Description        |
+| :------------------: | ------------------ |
+|         200          | True, token passed |
+|         401          | No token           |
+|         403          | Unauthorized       |
 
 ### Example - 200
 
@@ -39,11 +40,20 @@ Authorization: Bearer 1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd
 }
 ```
 
-### Example - 406
+### Example - 401
 
 ```js
 {
   status: false,
-  message: "Token failed"
+  message: "No token"
+}
+```
+
+### Example - 403
+
+```js
+{
+  status: false,
+  message: "Unauthorized"
 }
 ```
