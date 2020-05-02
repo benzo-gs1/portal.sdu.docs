@@ -11,9 +11,9 @@ This document describes Back-end's dependencies.
     - [express 4.17.1](#express-4171)
     - [helmet 3.22.0](#helmet-3220)
     - [jsonwebtoken 8.5.1](#jsonwebtoken-851)
-    - [mongoose 5.9.9](#mongoose-599)
+    - [mongoose 5.9.11](#mongoose-5911)
   - [Dev Dependencies](#dev-dependencies)
-    - [@babel/cli 7.8.4, @babel/core 7.9.0, @babel/node 7.8.4, @babel/preset-env 7.9.5](#babelcli-784-babelcore-790-babelnode-784-babelpreset-env-795)
+    - [@babel/cli 7.8.4, @babel/core 7.9.6, @babel/node 7.8.4, @babel/preset-env 7.9.6](#babelcli-784-babelcore-796-babelnode-784-babelpreset-env-796)
     - [babel-plugin-root-import 6.5.0](#babel-plugin-root-import-650)
     - [chai 4.2.0](#chai-420)
     - [dotenv 8.2.0](#dotenv-820)
@@ -67,7 +67,7 @@ Package/Middleware in defense of most popular web attacks
 
 JWT itself
 
-### mongoose 5.9.9
+### mongoose 5.9.11
 
 **npm [link](https://www.npmjs.com/package/mongoose)**
 
@@ -75,7 +75,7 @@ Mongoose is a Schema-based MongoDB modeling framework. It helps us validate mode
 
 ## Dev Dependencies
 
-### @babel/cli 7.8.4, @babel/core 7.9.0, @babel/node 7.8.4, @babel/preset-env 7.9.5
+### @babel/cli 7.8.4, @babel/core 7.9.6, @babel/node 7.8.4, @babel/preset-env 7.9.6
 
 **npm [cli](https://www.npmjs.com/package/@babel/cli)** <br>
 **npm [core](https://www.npmjs.com/package/@babel/core)** <br>
