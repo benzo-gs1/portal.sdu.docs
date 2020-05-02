@@ -4,38 +4,47 @@
 
 Creates user from given credentials and returns it
 
-|    Note    | Value |
-| :--------: | :---: |
-| Need Token |  No   |
-| Test route |  Yes  |
+|    Note    |  Value  |
+| :--------: | :-----: |
+| Need Token |   No    |
+| Test route | **Yes** |
 
 ## Request example
 
 Send parameters related to Users' Schema. See [User Model](../../05_Database/Documents/Users.md)
 
-```json
+```js
 {
-  "username": "180101033",
-  "password": "thisisapassword",
-  "language": "en"
+  username: "180101033",
+  password: "thisisapassword",
+  language: "en"
   // other parameters
 }
 ```
 
-## Response example (Success)
+## Response
 
 | Response Status code | Description |
 | :------------------: | ----------- |
 |         200          | Success     |
-|         406          | Error       |
+|         400          | Error       |
 
-HTTP Code: 200
+### Example - 200
 
-```json
+```js
 {
-  "status": true,
-  "user": {
+  status: true,
+  user: {
     // created user
   }
+}
+```
+
+### Example - 400
+
+```js
+{
+  status: false,
+  message: "Fail, verify your data"
 }
 ```
