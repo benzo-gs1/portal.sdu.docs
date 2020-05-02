@@ -1,6 +1,6 @@
 # Welcome to portal.sdu's documentation! 😃
 
-There are currently 6 sections:
+There are currently 7 sections:
 
 - [REST Api](./01_Rest_Api/index.md) - REST Api reference
 - [Front-end Modules](./02_Front-end_Modules/index.md) - Describes how Front-end was build & it's systems
@@ -21,3 +21,11 @@ Obtaining repo updates to your fork:
 - `git fetch upstream`
 - `git checkout master`
 - `git merge upstream/master`
+
+## Tools 🚀
+
+This documentation is build using [Daux](https://daux.io)
+
+## License 📢
+
+This software is licensed under the Apache 2.0 license. Please get familiar with the statements and conditions first, before you continue working with this repository. For more details, please follow [LICENCE](./LICENSE);
