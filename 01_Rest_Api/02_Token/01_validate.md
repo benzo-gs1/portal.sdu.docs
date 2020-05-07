@@ -8,7 +8,7 @@ Validates token from Authorization: Bearer &lt;token> pattern
 | :--------: | :-----: |
 | Need Token | **Yes** |
 | Test route |   No    |
-| Is Public  |   No    |
+| Is Public  | **Yes** |
 
 ## Request example
 
@@ -37,6 +37,7 @@ Authorization: Bearer 1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd
 ```js
 {
   status: true,
+  message: "Token Validated"
 }
 ```
 

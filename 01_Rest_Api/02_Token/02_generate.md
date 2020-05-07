@@ -1,4 +1,4 @@
-# api/token/generate (POST)
+# api/token/test/generate (POST)
 
 ## Description
 
@@ -12,9 +12,11 @@ Generates token from given payload
 
 ## Request example
 
-```json
+```js
 {
-  // any payload
+  ip: "some-ip address",
+  role_level: 0,
+  username: "some-username"
 }
 ```
 
@@ -24,6 +26,6 @@ HTTP Code: 200
 
 ```js
 {
-  token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJheURhcmFyIiwiaWF0IjoxNTg0ODc0OTU1LCJleHAiOjE1ODQ4Nzg1NTV9.opOkiaErjUmjhXkMUMI_7SC-rKUGRpWQxdiLEblPhig",
+  token: "generated-token",
 }
 ```
