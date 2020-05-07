@@ -11,6 +11,8 @@ This document describes Back-end dependencies, services, loaders, configurations
 - [Tests](./06_Tests/index.md)
 - [Utils](./07_Utils/index.md)
 - [Middleware](./08_Middleware/index.md)
+- [Routes](./09_Routes/index.md)
+- [Connection](./10_Connection/index.md)
 
 ## yarn scripts
 
