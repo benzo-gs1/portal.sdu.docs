@@ -2,52 +2,53 @@
 
 This service provides following methods:
 
-```js
+```ts
 class TokenService {
-  static create(data={}, lifetime="1h");
-  static validate(token);
-  static middle(req, res, next);
-  static bearerParser(header);
+  static create(data: ITokenData, lifetime = "1h"): string | false;
+  static validate(token: string): ITokenData | false;
+  static bearerParser(header: express.Request): string | false;
 }
 ```
 
-- **create** - returns _new token_ (by default expires in 1h)
-- **validate** - validates given token and returns _data_ if success, otherwise _false_
-- **middle** - middleware for validating tokens from Authorization header. It successful, sets token property to request object
-- **bearerParser** - function to parse Authorization header, returns _token_ if success and _empty string_ otherwise
+**ITokenData:** interface, describing data encapsulated into user token:
+
+```ts
+export interface ITokenData {
+  ip: string;
+  username: string;
+  role_level: number;
+}
+```
+
+- **create** - returns _token_ string on given _data_ or false in case of error
+- **validate** - returns _data_ encapsulated inside given _token_ or false in case of error
+- **bearerParser** - returns _token_ string parsing http authorization header from given express _request_ object or false in case of error
 
 ## create()
 
-```js
-const data = {
-  role: "student"
+```ts
+const data: ITokenData = {
+  role_level: 0,
+  username: "some-username",
+  ip: "some-ip",
 };
 
-const token = TokenService.create(data); // new token, expires in 1 hour by default
+const token: string | false = TokenService.create(data); // new token, expires in 1 hour by default
 ```
 
 ## validate()
 
-```js
-const token = "some-token";
+```ts
+const token: string = "some-token";
 
-const result = TokenService.validate(token); // result is data given in generation process or false
-```
-
-## middle()
-
-```js
-router.post("/route-to-check", TokenService.middle, (req, res) => {
-  const token = req.token; // token could be accessed
-  // route code
-});
+const result: ITokenData | false = TokenService.validate(token); // result is data given in generation process or false
 ```
 
 ## bearerParser()
 
-```js
-router.post("/some-route", (req, res) => {
+```ts
+router.post("/some-route", (req: express.Request, res: express.Response) => {
   // Returns token, parsed from Authorization header
-  const token = TokenService.bearerParser(req.headers["authorization"]);
+  const token: string | false = TokenService.bearerParser(req);
 });
 ```
