@@ -11,7 +11,7 @@ All packages are licensed under the MIT licence and could be found on [npmjs](ht
 - cookie-parser 1.4.4
 - cors 2.8.5
 - dotenv 8.2.0
-- eventemmiter2 6.3.1 - will be replaced by redis in the future
+- eventemitter2 6.3.1 - will be replaced by redis in the future
 - express 4.17.1
 - helmet 3.22.0
 - jsonwebtoken 8.5.1
