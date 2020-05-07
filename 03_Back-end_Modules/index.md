@@ -1,6 +1,6 @@
 # Back-end reference
 
-This document describes Back-end plugins, services, loaders, configurations and etc...
+This document describes Back-end dependencies, services, loaders, configurations and etc...
 
 - [Packages](./01_Packages/index.md)
 - [Configs](./02_Configs/index.md)
