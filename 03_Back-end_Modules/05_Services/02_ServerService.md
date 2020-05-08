@@ -2,7 +2,7 @@
 
 ```ts
 class ServerService {
-  static closeServer(server: http.Server);
+  static closeServer(server: http.Server): void;
 }
 ```
 
