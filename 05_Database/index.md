@@ -2,16 +2,12 @@
 
 This document describes MongoDB database structure.
 
-Currently schema looks like these:
+**Defined schemas description:** [Link](./01_Schemas.md)
 
-![schema](img/schema.png)
+## Objects
 
-**Defined models example:**
+![database objects](./img/objects.jpg)
 
-- [User](./Documents/Users.md)
-- [Curriculum](./Documents/Curriculums.md)
-- [Course](./Documents/Courses.md)
-- [Department](./Documents/Department.md)
-- [Faculty](./Documents/Faculties.md)
+## Schemas
 
-**Defined Roles:** [Link](./01_Roles.md)
+![database schema](./img/schema.png)
