@@ -7,8 +7,7 @@ There are currently 6 sections:
 - [Back-end Modules](./03_Back-end_Modules/index.md) - Describes how Back-end was build & it's systems
 - [Processes](./04_Processes/index.md) - Describes systems processes by Flowchart (UX map)
 - [Database](./05_Database/index.md) - Describes Database structure
-- [Changelog](./06_Changelog/index.md)
-- [Templates](./07_Templates/index.md) - Contribution Templates
+- [Templates](./06_Templates/index.md) - Contribution Templates
 
 ## Contribution rules
 
