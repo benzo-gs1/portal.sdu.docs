@@ -8,10 +8,9 @@ This document describes Back-end dependencies, services, loaders, configurations
 - [Event Pipe](./04_Pipe/index.md)
 - [Routes](../01_Rest_Api/index.md) - This part is described in REST Api reference
 - [Services](./05_Services/index.md)
-- [Utils](./07_Utils/index.md)
-- [Middleware](./08_Middleware/index.md)
-- [Routes](./09_Routes/index.md)
-- [Connection](./10_Connection/index.md)
+- [Utils](./06_Utils/index.md)
+- [Routes](./07_Routes/index.md)
+- [Connection](./08_Connection/index.md)
 
 ## yarn scripts
 
