@@ -6,4 +6,4 @@ Processes are described using _Business Process Model and Notation_ ([BPMN](http
 
 Currently defined processes (by order of execution)
 
-1. Entering the webpage, system need to authorize the user. [Link to the process](./01_Sign-in.md)
+1. Loading the application. [Link](./001_app-loading.md)
