@@ -7,7 +7,6 @@ Validates token from Authorization: Bearer &lt;token> pattern
 |    Note    |  Value  |
 | :--------: | :-----: |
 | Need Token | **Yes** |
-| Test route |   No    |
 | Is Public  | **Yes** |
 
 ## Request example
@@ -26,11 +25,11 @@ Authorization: Bearer 1f2efaf79922904c5ce829950aeed941a17a714e20bc9e22a9bd
 
 ## Response
 
-| Response Status code | Description        |
-| :------------------: | ------------------ |
-|         200          | True, token passed |
-|         401          | No Token           |
-|         403          | Unauthorized       |
+| HTTP code | Status | Description        |
+| :-------: | :----: | ------------------ |
+|    200    |  true  | True, token passed |
+|    401    | false  | No Token           |
+|    403    | false  | Unauthorized       |
 
 ### Example - 200
 
