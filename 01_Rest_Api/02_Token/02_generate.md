@@ -22,6 +22,11 @@ Generates token from given payload
 
 ## Response example
 
+| Response Status code | Description                    |
+| :------------------: | ------------------------------ |
+|         200          | Success                        |
+|         412          | Request conditions are not met |
+
 HTTP Code: 200
 
 ```js
