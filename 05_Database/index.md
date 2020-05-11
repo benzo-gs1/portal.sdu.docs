@@ -3,11 +3,14 @@
 This document describes MongoDB database structure.
 
 **Defined schemas description:** [Link](./01_Schemas.md)
+**Project on .drawio file:** [Link](./project.drawio)
+
+**Note:** currently defined schema is based on [brainstormed one](#brainstormed-schema)
 
 ## Currently implemented
 
-![database objects](./img/current.png)
+![database](./img/current.png)
 
-## Schemas
+## Brainstormed Schema
 
-![database schema](./img/schema.png)
+![temporary schema](./img/schema.png)
