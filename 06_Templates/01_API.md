@@ -1,13 +1,13 @@
-# path/to/api (METHOD)
+# api/your/route (GET|POST|PUT|DELETE)
 
 ## Description
 
-_Description placeholder_
+_description placeholder_
 
-|    Note    |   Value    |
-| :--------: | :--------: |
-| Need Token | Some-value |
-| Test route | Some-value |
+|    Note    |  Value  |
+| :--------: | :-----: |
+| Need Token | Yes\|No |
+| Is Public  | Yes\|No |
 
 ## Request example
 
@@ -15,22 +15,27 @@ _Description placeholder_
 | :-------: | ----------- |
 
 
-```json
+<!-- request parameters -->
+
+```js
 {
-  // parameters placeholder
+  // request body
 }
 ```
 
-## Response example (Fail)
+## Response examples
 
-| Response Status code | Description |
-| :------------------: | ----------- |
+| HTTP code | Status | Description |
+| :-------: | :----: | ----------- |
+|    200    |  true  | Success     |
 
+<!-- other response examples -->
 
-HTTP code: 406
+### 200 - Success
 
-```json
+```js
 {
-  // response body
+  status: true,
+  message: "Response Example"
 }
 ```
