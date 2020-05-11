@@ -4,9 +4,9 @@ This document describes MongoDB database structure.
 
 **Defined schemas description:** [Link](./01_Schemas.md)
 
-## Objects
+## Currently implemented
 
-![database objects](./img/objects.jpg)
+![database objects](./img/current.png)
 
 ## Schemas
 
