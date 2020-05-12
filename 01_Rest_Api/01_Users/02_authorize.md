@@ -64,7 +64,7 @@ Finds user, validates credentials. If credentials are valid, returns new token a
 
 ```js
 {
-  status: true,
+  status: false,
   message: "User not found"
 }
 ```
